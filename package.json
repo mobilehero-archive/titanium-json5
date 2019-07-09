@@ -1,0 +1,64 @@
+{
+	"name": "@titanium/json5",
+	"version": "0.0.1",
+	"description": "Titanium native mobile module for JSON5 - JSON for Humans",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"lint": "eslint . --"
+	},
+	"author": "Aseem Kishore <aseem.kishore@gmail.com>",
+	"contributors": [
+		"Max Nanasy <max.nanasy@gmail.com>",
+		"Andrew Eisenberg <andrew@eisenberg.as>",
+		"Jordan Tucker <jordanbtucker@gmail.com>"
+	],
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],
+	"bin": "lib/cli.js",
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/titanium-json5"
+	},
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-json5/issues"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@geek/eslint-config": "0.0.7",
+		"eslint": "^5.16.0",
+		"eslint-plugin-import": "^2.17.3",
+		"eslint-plugin-jsdoc": "^7.2.3",
+		"eslint-plugin-promise": "^4.1.1",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-node": "^8.0.1",
+		"eslint-plugin-promise": "^4.0.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"minimist": "^1.2.0"
+	},
+	"dependencies": {},
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"turbo",
+		"axway",
+		"appcelerator",
+		"ios",
+		"android",
+		"iphone",
+		"ipad",
+		"modules",
+		"json",
+		"json5",
+		"hjson",
+		"brentonhouse"
+	]
+}
