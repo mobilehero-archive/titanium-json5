@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/json5",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Titanium native mobile module for JSON5 - JSON for Humans",
 	"main": "lib/index.js",
 	"scripts": {
@@ -34,13 +34,11 @@
 	"devDependencies": {
 		"@geek/eslint-config": "0.0.9",
 		"eslint": "^6.4.0",
-		"eslint-plugin-import": "^2.17.3",
-		"eslint-plugin-jsdoc": "^15.9.3",
-		"eslint-plugin-promise": "^4.1.1",
-		"eslint-config-standard": "^12.0.0",
 		"eslint-plugin-import": "^2.16.0",
-		"eslint-plugin-node": "^8.0.1",
+		"eslint-plugin-jsdoc": "^15.9.3",
 		"eslint-plugin-promise": "^4.2.1",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-node": "^8.0.1",
 		"eslint-plugin-standard": "^4.0.0",
 		"minimist": "^1.2.0"
 	},
