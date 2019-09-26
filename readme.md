@@ -1,39 +1,48 @@
+
+<a href="#titaniumjson5">
+	<p align="center">
+		<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
+		<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
+	</p>
+</a>
+
 # @titanium/json5
 
 [![@titanium/json5](https://img.shields.io/npm/v/@titanium/json5.png)](https://www.npmjs.com/package/@titanium/json5)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-lottie)](https://dependabot.com)
 
 
 > Titanium native mobile module for JSON5 - JSON for Humans.  Based on https://github.com/json5/json5 
 
 
-- [📝 Description](#-Description)
-	- [JSON5 – JSON for Humans](#JSON5--JSON-for-Humans)
-- [🚀 Getting Started](#-Getting-Started)
-- [Usage](#Usage)
-	- [Short Example](#Short-Example)
-- [Features](#Features)
-	- [Objects](#Objects)
-	- [Arrays](#Arrays)
-	- [Strings](#Strings)
-	- [Numbers](#Numbers)
-	- [Comments](#Comments)
-	- [White Space](#White-Space)
-- [API](#API)
-	- [JSON5.parse()](#JSON5parse)
-		- [Syntax](#Syntax)
-		- [Parameters](#Parameters)
-		- [Return value](#Return-value)
-	- [JSON5.stringify()](#JSON5stringify)
-		- [Syntax](#Syntax-1)
-		- [Parameters](#Parameters-1)
-		- [Return value](#Return-value-1)
-	- [Node.js `require()` JSON5 files](#Nodejs-require-JSON5-files)
-- [🔗 Related Links](#-Related-Links)
-- [📚 Learn More](#-Learn-More)
-- [📣 Feedback](#-Feedback)
-- [©️ Legal](#️-Legal)
-	- [License](#License)
-	- [Credits](#Credits)
+* [📝 Description](#-description)
+	* [JSON5 – JSON for Humans](#json5--json-for-humans)
+* [🚀 Getting Started](#-getting-started)
+* [Usage](#usage)
+	* [Short Example](#short-example)
+* [Features](#features)
+	* [Objects](#objects)
+	* [Arrays](#arrays)
+	* [Strings](#strings)
+	* [Numbers](#numbers)
+	* [Comments](#comments)
+	* [White Space](#white-space)
+* [API](#api)
+	* [JSON5.parse()](#json5parse)
+		* [Syntax](#syntax)
+		* [Parameters](#parameters)
+		* [Return value](#return-value)
+	* [JSON5.stringify()](#json5stringify)
+		* [Syntax](#syntax-1)
+		* [Parameters](#parameters-1)
+		* [Return value](#return-value-1)
+	* [Node.js `require()` JSON5 files](#nodejs-require-json5-files)
+* [🔗 Related Links](#-related-links)
+* [📚 Learn More](#-learn-more)
+* [📣 Feedback](#-feedback)
+* [©️ Legal](#️-legal)
+	* [License](#license)
+	* [Credits](#credits)
 
 ## 📝 Description
 
