@@ -33,7 +33,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@geek/eslint-config": "0.0.12",
-		"eslint": "^6.7.1",
+		"eslint": "^7.19.0",
 		"eslint-plugin-import": "^2.18.2",
 		"eslint-plugin-jsdoc": "^30.6.5",
 		"eslint-plugin-promise": "^4.2.1",
