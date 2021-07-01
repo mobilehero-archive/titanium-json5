@@ -1,10 +1,20 @@
-
-<a href="#titaniumjson5">
+<a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
+	<h1 align="center">
+	🪦 RIP Axway Amplify Titanium (2010 - 2022)
+	</h1>
 	<p align="center">
-		<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
-		<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
+		<img src="https://cdn.secure-api.org/images/RIP-Axway-Amplify-Titanium.png" width="80%" />
 	</p>
+	<p>&nbsp;</p>
+	<h2 align="center">
+		🛑 This project is no longer being maintained 🛑
+	</h2>
+	<p>&nbsp;</p>
+	<hr>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 </a>
+
 
 # @titanium/json5
 
