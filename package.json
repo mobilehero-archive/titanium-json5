@@ -1,13 +1,16 @@
 {
 	"name": "@titanium/json5",
-	"version": "0.0.2",
-	"description": "Titanium native mobile module for JSON5 - JSON for Humans",
+	"version": "1.0.1",
+	"description": "⭐  Axway Amplify module for using JSON5 with Appcelerator Titanium SDK",
 	"main": "lib/index.js",
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"lint": "eslint . --",
-		"prepublishOnly": "git pull && bump"
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts && npm run list",
+		"test": "npm run prep",
+		"prepublishOnly2": "git pull && npm test && bump insane",
+		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"author": "Aseem Kishore <aseem.kishore@gmail.com>",
 	"contributors": [
@@ -25,24 +28,20 @@
 	"bin": "lib/cli.js",
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-json5"
+		"url": "github:mobilehero-archive/titanium-json5"
 	},
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-json5/issues"
+		"url": "https://github.com/mobilehero-archive/titanium-json5/issues"
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"@geek/eslint-config": "0.0.12",
-		"eslint": "^6.7.1",
-		"eslint-plugin-import": "^2.18.2",
-		"eslint-plugin-jsdoc": "^30.6.5",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-config-standard": "^14.1.0",
-		"eslint-plugin-node": "^10.0.0",
-		"eslint-plugin-standard": "^4.0.1",
+		"@titanium/eslint-config": "^1.0.8",
+		"eslint": "^8.6.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-jsdoc": "^37.5.1",
+		"eslint-plugin-promise": "^6.0.0",
 		"minimist": "^1.2.5"
 	},
-	"dependencies": {},
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -58,6 +57,31 @@
 		"json",
 		"json5",
 		"hjson",
+		"sdk",
+		"plugin",
+		"amplify",
+		"api-builder",
+		"appcelerator-titanium",
+		"titanium-sdk",
+		"titanium-mobile",
+		"titanium-module",
+		"axway-sdk",
+		"axway-amplify",
 		"brenton-house"
-	]
+	],
+	"dependencies": {
+		"@geek/logger": "^1.0.17",
+		"@titanium/bluebird": "^3.7.8",
+		"@titanium/errors": "^1.0.5",
+		"@titanium/essentials": "^1.0.35",
+		"@titanium/events": "^1.0.18",
+		"@titanium/eventsource": "^1.0.3",
+		"@titanium/jwt": "^1.0.8",
+		"@titanium/module-copier": "^1.0.13",
+		"@titanium/please": "^1.0.16",
+		"@titanium/polyfill": "^1.0.15",
+		"@titanium/querystring": "^1.0.2",
+		"@titanium/tiapp-xml": "^1.0.11",
+		"@titanium/turbo": "^2.2.22"
+	}
 }
