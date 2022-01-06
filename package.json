@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/json5",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "⭐  Axway Amplify module for using JSON5 with Appcelerator Titanium SDK",
 	"main": "lib/index.js",
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
